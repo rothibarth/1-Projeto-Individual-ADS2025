@@ -19,7 +19,7 @@ header{
     height: 100px;
     display: flex;
     align-items: center;
-    
+   
 }
 
 header img{
@@ -33,6 +33,12 @@ header h1{
     color: #303f9f;
     float: center;
     font-size: 30px;
+}
+
+header h5{
+    color: #303f9f;
+    float: center;
+    font-size: 15px;
 }
 
 .navegacao{
@@ -58,28 +64,19 @@ header h1{
 }
 
 
-
-/* .card{
-    font-size: 15px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    background-color: #f5f5dc;
-}
-
-.card img{
+.card{
+    margin: 30px;
     width: 50%;
-    background-color: #f5f5dc;
+    border: 5px solid #616161;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.card h5{
-    color:  #d32f2f;
+.card-body, p{
+    background-color: #807e7e;
+    color: #f5f5dc;
 }
 
-.card p{
-    color: #303f9f;
-} */
 
 
 footer p {

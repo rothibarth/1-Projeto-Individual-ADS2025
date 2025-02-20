@@ -7,36 +7,37 @@
 */
 
 *{
+    padding: 0;
+    margin: 0;
     background-color: #f5f5dc;
-    font-family: Arial, Helvetica, sans-serif;
-   
 }
+
 
 header{
     padding: 20px;
     text-align: center;
-    background-color: #f5f5dc;
     height: 100px;
     display: flex;
     align-items: center;
-   
+    margin-top: 50px;
+
 }
 
 header img{
     float: left;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     margin: 10px;
 }
 
 header h1{
-    color: #303f9f;
+    color: #5f5454;
     float: center;
     font-size: 30px;
 }
 
 header h5{
-    color: #303f9f;
+    color: #5f5454;
     float: center;
     font-size: 15px;
 }
@@ -51,16 +52,16 @@ header h5{
     gap: 20px;
 }
 
+
 .nav-link{
-    color: #303f9f !important;
     font-weight: bold;
     transition: color 0.5s;
     border-radius: 10px;
-    
+
 }
 
 .nav-link:hover {
-    background-color: #d32f2f !important;
+    background-color: #303f9f !important;
 }
 
 
@@ -75,8 +76,8 @@ header h5{
 }
 
 .card-body, p{
-    background-color: #807e7e;
-    color: #f5f5dc;
+    /* background-color: #807e7e; */
+    color: #5f5454;
 }
 
 .card_login{
@@ -98,7 +99,7 @@ header h5{
 
 footer p {
     width: 100%;
-    background-color:#f5f5dc;
+    /* background-color:#f5f5dc; */
     color: #303f9f;
     text-align: center;
     padding: 10px 0;

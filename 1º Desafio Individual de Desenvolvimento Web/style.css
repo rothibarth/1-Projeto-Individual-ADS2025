@@ -67,9 +67,11 @@ header h5{
 .card{
     margin: 30px;
     width: 50%;
-    border: 5px solid #616161;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card :hover{
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 .card-body, p{
@@ -77,13 +79,35 @@ header h5{
     color: #f5f5dc;
 }
 
+.card_login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: auto;
+}
+
+.card-body_login{
+    border: #807e7e solid 4px;
+    border-radius: 10px;
+    padding-inline: 60px;
+    padding-block: 30px;
+    color: #303f9f;
+}
 
 
 footer p {
+    width: 100%;
     background-color:#f5f5dc;
     color: #303f9f;
     text-align: center;
-    padding: 10px;
+    padding: 10px 0;
+    bottom: 0;
+}
 
+.footer_login{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 

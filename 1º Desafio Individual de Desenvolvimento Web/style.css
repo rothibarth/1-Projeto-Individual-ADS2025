@@ -33,7 +33,7 @@ header img{
 header h1{
     color: #5f5454;
     float: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 header h5{
@@ -55,13 +55,13 @@ header h5{
 
 .nav-link{
     font-weight: bold;
-    transition: color 0.5s;
+    transition: 0.5s;
     border-radius: 10px;
-
 }
 
 .nav-link:hover {
-    background-color: #303f9f !important;
+    background-color: #303f9f;
+    color: #ffffff !important;
 }
 
 
@@ -99,7 +99,6 @@ header h5{
 
 footer p {
     width: 100%;
-    /* background-color:#f5f5dc; */
     color: #303f9f;
     text-align: center;
     padding: 10px 0;

@@ -17,10 +17,8 @@
 header{
     padding: 20px;
     text-align: center;
-    height: 100px;
     display: flex;
     align-items: center;
-    margin-top: 50px;
 
 }
 
@@ -71,10 +69,10 @@ header h5{
     width: 50%;
 }
 
-.card :hover{
-    transform: translateY(-10px); 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
-}
+/* .card :hover{
+    /* transform: translateY(-10px);  */
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  */
+/* } */ 
 
 .card-body, p{
     /* background-color: #807e7e; */

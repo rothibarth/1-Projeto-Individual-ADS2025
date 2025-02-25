@@ -9,7 +9,14 @@
 *{
     padding: 0;
     margin: 0;
+    
 }
+
+body {
+    overflow-x: hidden; 
+    overflow-y: auto;
+    /* background-color:#f5f5dc !important; */
+  }
 
 
 header{
@@ -59,7 +66,7 @@ header h5{
 }
 
 .nav_style{
-    background-color: #5f70df;
+    background-color: #8292fa;
     font-weight: bold;
     
 }
@@ -67,9 +74,11 @@ header h5{
 .nav_style a{
     color: #ffffff;
 }
- 
 
-.card_login{ /*LOGIN*/
+
+ 
+/* 
+.card_login{ 
     width: 100%;
     display: flex;
     justify-content: center;
@@ -77,26 +86,46 @@ header h5{
     margin: auto;
 }
 
-.card-body_login{ /*login*/
+.card-body_login{ 
     border: #807e7e solid 4px;
     border-radius: 10px;
     padding-inline: 60px;
     padding-block: 30px;
     color: #303f9f;
+} */
+
+.card_style{
+    background-color: #f5f5dc !important;
+    color: #5f5454 !important;
+    padding: 15px;
 }
 
+.img_style{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.img-fluid{
+    border: 1px;
+    border-radius: 5px;
+}
 
 footer{
+
+    position: fixed;
     width: 100%;
     text-align: center;
     padding: 10px 0;
     bottom: 0;
     background-color: #f5f5dc;
+
 }
 
 footer p{
     color: #303f9f;
     font-weight: bold;
+    margin: 0;
 }
 /* 
 .footer_login{

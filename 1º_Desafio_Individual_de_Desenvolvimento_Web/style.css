@@ -6,20 +6,19 @@
 ○ Cinza (#616161) – Para textos e bordas sutis.
 */
 
-*{
+* {
     padding: 0;
     margin: 0;
-    
+
 }
 
 body {
-    overflow-x: hidden; 
+    overflow-x: hidden;
     overflow-y: auto;
-    /* background-color:#f5f5dc !important; */
-  }
+}
 
 
-header{
+header {
     padding: 20px;
     text-align: center;
     display: flex;
@@ -28,33 +27,26 @@ header{
 
 }
 
-header img{
+header img {
     float: left;
     width: 10%;
     margin: 1%;
 }
 
-header h1{
+header h1 {
     color: #5f5454;
     float: center;
     font-size: 2.5rem;
 }
 
-header h5{
+header h5 {
     color: #5f5454;
     float: center;
     font-size: 1rem;
 }
 
 
-/* .nav{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-} */
-
-
-.nav-link{
+.nav-link {
     font-weight: bold;
     transition: 0.5s;
     border-radius: 10px;
@@ -65,18 +57,73 @@ header h5{
     color: #ffffff !important;
 }
 
-.nav_style{
+.nav_style {
     background-color: #8292fa;
     font-weight: bold;
-    
+
 }
 
-.nav_style a{
+.nav_style a {
     color: #ffffff;
 }
 
 
- 
+.card_style {
+    background-color: #f5f5dc !important;
+    color: #5f5454 !important;
+    padding: 15px;
+    transition: transform 0.3s ease;
+    font-size: 18px;
+}
+
+.card_style :hover{
+    color: #303f9f;
+    transform: scale(1.01);
+}
+
+.img_style {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.img-fluid {
+    border: 1px;
+    border-radius: 5px;
+}
+
+.video_educativo{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+footer {
+
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    background-color: #f5f5dc;
+
+}
+
+.footer_inicio{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    background-color: #f5f5dc;
+}
+
+footer p {
+    color: #303f9f;
+    font-weight: bold;
+    margin: 0;
+}
+
+
 /* 
 .card_login{ 
     width: 100%;
@@ -94,43 +141,9 @@ header h5{
     color: #303f9f;
 } */
 
-.card_style{
-    background-color: #f5f5dc !important;
-    color: #5f5454 !important;
-    padding: 15px;
-}
-
-.img_style{
-    text-align: center;
-    display: flex;
-    align-items: center;
-}
-
-.img-fluid{
-    border: 1px;
-    border-radius: 5px;
-}
-
-footer{
-
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
-    bottom: 0;
-    background-color: #f5f5dc;
-
-}
-
-footer p{
-    color: #303f9f;
-    font-weight: bold;
-    margin: 0;
-}
 /* 
 .footer_login{
     position: fixed;
     bottom: 0;
     width: 100%;
 } */
-

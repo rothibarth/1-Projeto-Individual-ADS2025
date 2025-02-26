@@ -6,15 +6,21 @@
 ○ Cinza (#616161) – Para textos e bordas sutis.
 */
 
+html{
+    height: 100vh;
+
+}
+
 * {
     padding: 0;
     margin: 0;
-
+    box-sizing: border-box;
 }
 
 body {
     overflow-x: hidden;
     overflow-y: auto;
+    height: 100%;
 }
 
 
@@ -97,6 +103,29 @@ header h5 {
     text-align: center;
 }
 
+.noticia_style a{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #5f5454;
+    transition: color 0.3s ease; 
+
+}
+
+.noticia_style a :hover{
+    text-decoration: underline;
+    color: #303f9f;
+}
+
+.container_style{
+    transition: transform 0.3s ease;
+}
+
+.container_style :hover{
+    transform: scale(1.01);
+}
+
+
 
 footer {
 
@@ -109,13 +138,16 @@ footer {
 }
 
 .footer_inicio{
-    position: fixed;
+    
+    position:fixed;
     width: 100%;
     text-align: center;
     padding: 10px 0;
     bottom: 0;
     background-color: #f5f5dc;
+
 }
+
 
 footer p {
     color: #303f9f;
